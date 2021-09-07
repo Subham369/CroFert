@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "378933973767",
+    "project_id": "crofert",
+    "storage_bucket": "crofert.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378933973767:android:277fba652a996fc5236ba2",
+        "android_client_info": {
+          "package_name": "com.example.crofert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378933973767-ql57c14bm3dls4b1t31sqr6dqirtabb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRBqWH8hGMU_gucC9DM7dr1ilRFd_92RI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378933973767-ql57c14bm3dls4b1t31sqr6dqirtabb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

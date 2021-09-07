@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".AboutCropActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/IVWheat"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@drawable/wheat"
+                    />
+
+                <TextView
+                    android:id="@+id/TVCropName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/IVWheat"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:text="Wheat"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/TVCropDecs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/TVCropName"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:text="@string/wheat_desc"
+                    android:paddingLeft="5dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/IVRice"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@drawable/maize"
+                    />
+
+                <TextView
+                    android:id="@+id/TVCropName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/IVRice"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:text="Rice"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/TVCropDecs2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/TVCropName2"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:text="@string/rice_desc"
+                    android:paddingLeft="5dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/IVMaize"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@drawable/maize"
+                    />
+
+                <TextView
+                    android:id="@+id/TVCropName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/IVMaize"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:text="Maize"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/TVCropDecs3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/TVCropName3"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:text="@string/maize_desc"
+                    android:paddingLeft="5dp"/>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_marginTop="20dp"
+    tools:context=".NotificationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/idIVFertiliser"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/fertiliser"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/idTVKnowFertiliser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/idIVFertiliser"
+            android:textSize="16sp"
+            android:text="@string/about_fertiliser"/>
+
+        <TextView
+            android:id="@+id/idTVWhyFertiliser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/idTVKnowFertiliser"
+            android:textSize="22sp"
+            android:text="Why fertilizer is so important?"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idTVWhyFertiliserImp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/idTVWhyFertiliser"
+            android:textSize="16sp"
+            android:text="@string/fertilizer_imp" />
+
+        <TextView
+            android:id="@+id/idTVCrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/idTVWhyFertiliserImp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="Select crop to notify you when fertilizer is required:" />
+
+
+        <Spinner
+            android:id="@+id/crop_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVCrop"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

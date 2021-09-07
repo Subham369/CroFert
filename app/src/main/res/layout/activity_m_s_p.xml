@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MSPActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/wheatpic"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/wheat"
+                    />
+
+                <TextView
+                    android:id="@+id/wheatname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toEndOf="@+id/wheatpic"
+                    android:layout_toRightOf="@+id/wheatpic"
+                    android:text="Wheat"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvmsp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/wheatpic"
+                    android:layout_toRightOf="@+id/wheatpic"
+                    android:layout_below="@id/wheatname"
+                    android:layout_marginLeft="15dp"
+                    android:text="MSP Price: 34"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:paddingLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvmarket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/wheatpic"
+                    android:layout_toRightOf="@+id/wheatpic"
+                    android:layout_below="@id/tvmsp"
+
+                    android:layout_marginLeft="15dp"
+                    android:text="Market Price: 24"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:paddingLeft="5dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/ricepic"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/rice"
+                    />
+
+                <TextView
+                    android:id="@+id/ricename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toEndOf="@+id/ricepic"
+                    android:layout_toRightOf="@+id/ricepic"
+                    android:text="Rice"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvmsp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/ricepic"
+                    android:layout_toRightOf="@+id/ricepic"
+                    android:layout_below="@id/ricename"
+                    android:layout_marginLeft="15dp"
+                    android:text="MSP Price: 30"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:paddingLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvmarket2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/ricepic"
+                    android:layout_toRightOf="@+id/ricepic"
+                    android:layout_below="@id/tvmsp2"
+
+                    android:layout_marginLeft="15dp"
+                    android:text="Market Price: 44"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:paddingLeft="5dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/maizepic"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/maize"
+                    />
+
+                <TextView
+                    android:id="@+id/maizename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toEndOf="@+id/maizepic"
+                    android:layout_toRightOf="@+id/maizepic"
+                    android:text="Maize"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvmsp3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/maizepic"
+                    android:layout_toRightOf="@+id/maizepic"
+                    android:layout_below="@id/maizename"
+                    android:layout_marginLeft="15dp"
+                    android:text="MSP Price: 54"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:paddingLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvmarket3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/maizepic"
+                    android:layout_toRightOf="@+id/maizepic"
+                    android:layout_below="@id/tvmsp3"
+
+                    android:layout_marginLeft="15dp"
+                    android:text="Market Price: 44"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:paddingLeft="5dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/milletpic"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/millets"
+                    />
+
+                <TextView
+                    android:id="@+id/milletname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toEndOf="@+id/milletpic"
+                    android:layout_toRightOf="@+id/milletpic"
+                    android:text="Millets"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvmsp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/milletpic"
+                    android:layout_toRightOf="@+id/milletpic"
+                    android:layout_below="@id/milletname"
+                    android:layout_marginLeft="15dp"
+                    android:text="MSP Price: 74"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:paddingLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvmarket4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/milletpic"
+                    android:layout_toRightOf="@+id/milletpic"
+                    android:layout_below="@id/tvmsp4"
+
+                    android:layout_marginLeft="15dp"
+                    android:text="Market Price: 54"
+                    android:textColor="#333"
+                    android:textSize="22sp"
+                    android:paddingLeft="5dp"/>
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
